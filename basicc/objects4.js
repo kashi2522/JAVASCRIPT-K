@@ -40,8 +40,42 @@ const users =[
 
 //console.log(users[0].email); // khud try kiya tere bhai ne :)
 
-console.log(snapUser); //output { id: '2509abc', name: 'Shruti', isLoggedIn: false }
-console.log(Object.keys(snapUser)); // output [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(snapUser)); // output [ '2509abc', 'Shruti', false ]
-console.log(Object.entries(snapUser)); // output [ [ 'id', '2509abc' ], [ 'name', 'Shruti' ], [ 'isLoggedIn', false ] ]
-console.log(snapUser.hasOwnProperty('name')); // output true
+// console.log(snapUser); //output { id: '2509abc', name: 'Shruti', isLoggedIn: false }
+// console.log(Object.keys(snapUser)); // output [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(snapUser)); // output [ '2509abc', 'Shruti', false ]
+// console.log(Object.entries(snapUser)); // output [ [ 'id', '2509abc' ], [ 'name', 'Shruti' ], [ 'isLoggedIn', false ] ]
+// console.log(snapUser.hasOwnProperty('name')); // output true
+
+const Project ={
+    projectname: "JAVASCRIPT-K",
+    price: "500000",
+    director: "Kashinath"
+}
+
+//console.log(Project.director);
+
+const {director: direct} = Project
+//console.log(director);
+console.log(direct);
+
+{
+    "name":"Kashi",
+    "project": "JAVASCRIPT_K",
+    "PRICE":"1lakh"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
