@@ -43,5 +43,27 @@ function loginUserMessage(username="kashinath"){
 
 }
 //console.log(loginUserMessage("Kashu")); //"Kashu just logged in"
-console.log(loginUserMessage());
+//console.log(loginUserMessage());
 
+
+function calculateCartPrice(...num1){ // (... this is the rest operator
+    // which can be use for add multiple values )
+    return num1
+}
+//console.log(calculateCartPrice(200,400,600,800,1000));
+
+const user = {
+    username:"Kashu",
+    price : 1000
+}
+function handleObjecct(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleObjecct(user)
+
+
+const newArray =[200,400,600,800]
+function returnSecondValue(getArray){
+    return getArray[3]
+}
+ console.log(returnSecondValue(newArray));
